@@ -1,0 +1,89 @@
+.title {
+    color :white;
+    font-family : "Candara";
+    background-color: rgb(0, 51, 102);
+    margin-left : 2%;
+    margin-top: 2%;
+    margin-right : 2%;
+    padding : 50px;
+    line-height : 200%;
+    }
+
+#title {
+        color :white;
+        font-family : "Candara";
+        background-color: rgb(0, 51, 102);
+        line-height : 200%
+}
+.text{
+    transition: all 0.4s ease-in-out;
+}
+.text:hover{
+    font-size: 18;
+   
+}
+img:hover{
+    width:1600px;
+    height:2000px;
+    transition: all 0.4s ease-in-out;
+}
+
+#container {
+            color :white;
+            font-family : "Candara";
+            background-color: rgb(0, 51, 102);
+            display : flex;
+            flex-direction : row;
+            justify-content : space-between 
+           
+}
+@media only screen and (max-width: 500px) {
+    /* here we use a rule MORE SPECIFIC than above */
+    #container {
+      flex-direction : column;
+      align-content : center;
+    }
+    .title {
+        padding :5%;}
+  }
+#bas-de-page {
+    display : flex;
+    justify-content : flex-end;
+}
+div{
+    background-color : white;
+    color : rgb(0, 0, 0);
+    font-family : "Candara";
+    line-height : 150%
+}
+a{
+    color :rgb(0, 51, 102);
+}
+section{
+    display :flex;
+    flex-direction : row;
+    justify-content : flex-start;
+
+}
+.trait-bleu{
+    background-color :rgb(0, 51, 102);
+    width : 50px;
+    margin : none;
+    padding : none;
+}
+.trait-blanc{
+    background-color : white;
+    width : 50px;
+    margin : none;
+    padding : none;
+}
+#gauche {
+
+    margin-left : 2%;
+}
+
+.description {
+    display : auto;
+    margin : none;
+    padding : none;
+}
